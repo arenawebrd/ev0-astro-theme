@@ -25,7 +25,7 @@ content:
     type: file
     path: src/pages/about.md
     fields:
-      - { name: layout, type: string, hidden: true, default: "../layouts/Page.astro" }
+      - { name: layout, type: string, hidden: true, default: "../layouts/about.astro" }
       - { name: title, label: Title, type: string }
       - { name: body, label: Body, type: rich-text, options: { input: public/assets, output: /assets } }
 
